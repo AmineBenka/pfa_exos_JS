@@ -4,3 +4,5 @@ tags: sorting, algorithm, array
 description: "Implement the bubble sort algorithm."
 distributes: skeleton.js
 test: test.js
+commands: 
+  - validate: "make test"

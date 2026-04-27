@@ -1,6 +1,9 @@
+language: javascript
 name: factorial
 tags: math, recursion, number
 # difficulty: easy
 description: "Calculate the factorial of a positive integer."
 distributes: skeleton.js
 test: test.js
+commands: 
+  - validate: "make test"

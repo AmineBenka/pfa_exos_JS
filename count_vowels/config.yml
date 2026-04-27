@@ -4,3 +4,5 @@ tags: string, counting, iteration
 description: "Count the number of vowels in a string."
 distributes: skeleton.js
 test: test.js
+commands: 
+  - validate: "make test"
