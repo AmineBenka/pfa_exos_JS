@@ -1,0 +1,4 @@
+name: bubble_sort
+tags: sorting, algorithm, array
+# difficulty: medium
+description: "Implement the bubble sort algorithm."

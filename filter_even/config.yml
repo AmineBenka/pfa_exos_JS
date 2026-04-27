@@ -1,0 +1,4 @@
+name: filter_even
+tags: array, filter
+# difficulty: easy
+description: "Returns a new array with only even numbers."

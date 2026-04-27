@@ -1,0 +1,4 @@
+name: is_palindrome
+tags: string, logic
+# difficulty: medium
+description: "Check if a string is a palindrome (ignoring spaces and case)."

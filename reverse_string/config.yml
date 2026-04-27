@@ -1,0 +1,4 @@
+name: reverse_string
+tags: string, manipulation
+# difficulty: easy
+description: "Returns a string with characters reversed."

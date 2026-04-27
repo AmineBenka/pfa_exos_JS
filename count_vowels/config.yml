@@ -1,0 +1,4 @@
+name: count_vowels
+tags: string, counting, iteration
+# difficulty: easy
+description: "Count the number of vowels in a string."

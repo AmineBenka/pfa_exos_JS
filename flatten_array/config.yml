@@ -1,0 +1,4 @@
+name: flatten_array
+tags: array, recursion, nested
+# difficulty: medium
+description: "Flatten a nested array into a single-level array."

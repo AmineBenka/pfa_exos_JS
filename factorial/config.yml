@@ -1,0 +1,4 @@
+name: factorial
+tags: math, recursion, number
+# difficulty: easy
+description: "Calculate the factorial of a positive integer."
