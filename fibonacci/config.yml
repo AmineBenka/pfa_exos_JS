@@ -2,3 +2,5 @@ name: fibonacci
 tags: math, recursion, sequence
 # difficulty: medium
 description: "Return the nth Fibonacci number."
+distributes: skeleton.js
+test: test.js

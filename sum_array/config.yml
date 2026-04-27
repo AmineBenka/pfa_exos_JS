@@ -2,3 +2,5 @@ name: sum_array
 tags: array, math
 # difficulty: easy
 description: "Returns the sum of all elements in an array."
+distributes: skeleton.js
+test: test.js

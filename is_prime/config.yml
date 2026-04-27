@@ -2,3 +2,5 @@ name: is_prime
 tags: math, logic, number
 # difficulty: medium
 description: "Check if a number is prime."
+distributes: skeleton.js
+test: test.js

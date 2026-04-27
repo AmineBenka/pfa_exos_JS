@@ -2,3 +2,5 @@ name: find_max
 tags: array, math, comparison
 # difficulty: easy
 description: "Returns the maximum number in an array."
+distributes: skeleton.js
+test: test.js

@@ -2,3 +2,5 @@ name: is_anagram
 tags: string, sorting, comparison
 # difficulty: medium
 description: "Check if two strings are anagrams of each other."
+distributes: skeleton.js
+test: test.js
