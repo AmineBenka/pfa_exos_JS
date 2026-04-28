@@ -1,6 +1,11 @@
+language: javascript
 name: remove_duplicates
 tags: array, set, filter
 # difficulty: medium
 description: "Remove duplicate values from an array, maintaining order."
 distributes: skeleton.js
-test: test.js
+test:
+  - test.js
+  - Makefile
+commands:
+  validate: "make test"

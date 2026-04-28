@@ -1,9 +1,14 @@
 language: javascript
+language: javascript
 name: reverse_string
 tags: string, manipulation
 # difficulty: easy
 description: "Returns a string with characters reversed."
 distributes: skeleton.js
-test: test.js
+test:
+  - test.js
+  - Makefile
+commands:
+  validate: "make test"
 commands: 
   - validate: "make test"

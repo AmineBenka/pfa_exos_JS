@@ -1,8 +1,13 @@
+language: javascript
 name: capitalize_words
 tags: string, transformation, manipulation
 # difficulty: easy
 description: "Capitalize the first letter of each word in a string."
 distributes: skeleton.js
-test: test.js
+test:
+  - test.js
+  - Makefile
+commands:
+  validate: "make test"
 commands: 
   - validate: "make test"

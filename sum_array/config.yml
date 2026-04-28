@@ -1,6 +1,11 @@
+language: javascript
 name: sum_array
 tags: array, math
 # difficulty: easy
 description: "Returns the sum of all elements in an array."
 distributes: skeleton.js
-test: test.js
+test:
+  - test.js
+  - Makefile
+commands:
+  validate: "make test"

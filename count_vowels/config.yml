@@ -1,8 +1,13 @@
+language: javascript
 name: count_vowels
 tags: string, counting, iteration
 # difficulty: easy
 description: "Count the number of vowels in a string."
 distributes: skeleton.js
-test: test.js
+test:
+  - test.js
+  - Makefile
+commands:
+  validate: "make test"
 commands: 
   - validate: "make test"

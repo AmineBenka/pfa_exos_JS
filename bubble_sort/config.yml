@@ -1,8 +1,11 @@
+language: javascript
 name: bubble_sort
 tags: sorting, algorithm, array
 # difficulty: medium
 description: "Implement the bubble sort algorithm."
 distributes: skeleton.js
-test: test.js
-commands: 
-  - validate: "make test"
+test:
+  - test.js
+  - Makefile
+commands:
+  validate: "make test"
